@@ -1,0 +1,27 @@
+#include <iostream>
+
+int main() {
+
+int cookies;
+
+double servings;
+double calories;
+
+cout << "how many cookies have you eaten";
+
+cin >> cookies;
+
+const int cookies per serving = 5;
+const int calories per serving = 160;
+
+servings = static_cast<double>(cookies)/cookies per serving;
+calories = servings*calories per serving;
+
+cout << "you consumed";
+cout << calories;
+cout << "calories"; 
+cout << servings;
+cout << servings;
+
+return 0;
+}
